@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DlpConfigurationComponent } from './dlp-configuration/dlp-configuration.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DlpConfigurationComponent
   ],
   imports: [
     BrowserModule,
